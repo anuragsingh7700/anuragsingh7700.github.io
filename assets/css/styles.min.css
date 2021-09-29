@@ -1,1 +1,49 @@
-.image_bottom{position:relative}.social-link a,.social-link span{text-decoration:none}@media (min-width:992px){.portfolio-item:hover .caption{background-color:rgba(0,0,0,.8)}}
+.image_bottom {
+  position: relative;
+}
+.social-link a,
+.social-link span {
+  text-decoration: none;
+}
+.caption-content {
+    padding : 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.portfolio-item .caption {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+@media (min-width: 992px) {
+  .portfolio-item:hover .caption {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+}
+
+.nav-item{
+    color: rgb(221, 221, 221);
+    margin-right: 50px;
+    border-bottom: 3px solid skyblue;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    text-decoration: none;
+}
+.active{
+    color: white;
+    background-color: rgba(102, 102, 102, 0.3);
+}
+
+.nav-item:hover{
+    transition: 0.7s;
+    color: white;
+    background-color: rgb(7, 157, 216);
+    border-bottom: 3px solid skyblue;
+}
+/* .navbar-toggler-icon{
+    background-color: white;
+    color: white;
+} */
+.navbar-toggler{
+    color: white;
+}
+.navbar-brand{
+    font-size: 150%;
+}
